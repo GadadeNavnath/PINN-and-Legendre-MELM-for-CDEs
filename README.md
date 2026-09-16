@@ -39,3 +39,13 @@ Install the required packages using:
 
 pip install numpy matplotlib pandas scipy
 
+### Problem Overview
+
+| Problem   | Type       | Formulation          |
+| --------- | ---------- | -------------------- |
+| Problem 1 | 1D Problem | Steady               |
+| Problem 2 | 2D Problem | Steady               |
+| Problem 3 | 2D Problem | Steady               |
+| Problem 4 | 1D Problem | Unsteady (CT and DT) |
+| Problem 5 | 2D Problem | Unsteady (CT and DT) |
+
