@@ -50,6 +50,7 @@ pip install numpy matplotlib pandas scipy
 
 The repository is organized into three main folders: **FEM**, **PINN**, and **IELM**. The main `IELM` folder contains separate sub-folders for the IELM and PINN implementations. The `IELM` sub-folder contains code and results for all five benchmark problems, while the `PINN` sub-folder contains results for Problems 4 and 5.
 
+```text
 repository/
 ├── FEM/
 ├── PINN/
