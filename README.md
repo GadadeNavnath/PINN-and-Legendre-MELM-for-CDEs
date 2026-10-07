@@ -3,7 +3,7 @@ FEM, PINN and IELM methods for solving convection–diffusion equations.
 
 This repository contains reproducibility materials for the manuscript:
 
-**Title:** “An Improved Extreme Learning Machine Based on Shifted
+**Title:** “A Modified Extreme Learning Machine Based on Shifted
 Legendre Polynomials for Convection–Diffusion Equations with
 Steep Gradients”
 
@@ -22,7 +22,7 @@ This repository provides Python implementations for solving convection–diffusi
 #### PINN implementation requirements:
 
 
-#### IELM implementation Requirements:
+#### MELM implementation Requirements:
 
 The code is implemented in Python and requires the following packages:
 
@@ -48,14 +48,14 @@ pip install numpy matplotlib pandas scipy
 
 ### Repository Structure
 
-The repository is organized into three main folders: **FEM**, **PINN**, and **IELM**. The main `IELM` folder contains separate sub-folders for the IELM and PINN implementations. The `IELM` sub-folder contains code and results for all five benchmark problems, while the `PINN` sub-folder contains results for Problems 4 and 5.
+The repository is organized into three main folders: **FEM**, **PINN**, and **MELM**. The main `MELM` folder contains separate sub-folders for the MELM and PINN implementations. The `MELM` sub-folder contains code and results for all five benchmark problems, while the `PINN` sub-folder contains results for Problems 4 and 5.
 
 ```text
 repository/
 ├── FEM/
 ├── PINN/
-└── IELM/
-    ├── IELM/
+└── MELM/
+    ├── MELM/
     │   ├── Problem_1/
     │   ├── Problem_2/
     │   ├── Problem_3/
