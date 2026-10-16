@@ -1,4 +1,4 @@
-# PINN and Legendre-MELM for CDEs
+### PINN and Legendre-MELM for CDEs
 
 PINN and Legendre-Based Modified Extreme Learning Machine (MELM) Methods for Solving Convection–Diffusion Equations.
 
