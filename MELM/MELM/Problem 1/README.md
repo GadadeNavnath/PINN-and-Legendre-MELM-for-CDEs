@@ -27,15 +27,13 @@ $$
 \mathrm{Pe}=\frac{aL}{k}=5000.
 $$
 
-The high Péclet number indicates convection-dominated transport, making this problem a useful benchmark for evaluating numerical methods in the presence of sharp solution gradients.
-
 ### 2. Exact Solution
 
 The analytical solution of the problem is
 
 $$
 \phi(x)=
-\frac{1-\exp\!\left[\mathrm{Pe}(x-1)\right]}
+\frac{1-\exp\left[\mathrm{Pe}(x-1)\right]}
 {1-\exp(-\mathrm{Pe})}.
 $$
 
@@ -54,11 +52,9 @@ This exact solution serves as a reference for evaluating the numerical approxima
 
 ### 4. How to Run
 
-Ensure that `P1.py` and the required `P1_PINN.csv` file are available in the expected directory. From that directory, execute:
+Run `P1.py` from the directory containing `P1_PINN.csv`:
 
 ```bash
 python P1.py
 ```
-
-The script uses the PINN data file as an input. Ensure that the CSV filename and file path match those specified in the script.
 
