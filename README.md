@@ -113,3 +113,5 @@ The code and associated numerical results are provided to support reproducibilit
 
 For comparisons between PINN and MELM, refer to the corresponding problem directories and their numerical results. The CT and DT subfolders distinguish the continuous-time and discrete-time formulations for Problems 4 and 5.
 
+**Note:** Problem-wise README files are available in the `MELM/MELM/` directory. Please refer to the corresponding README file for detailed information about each problem, including its formulation, implementation, and numerical results.
+
