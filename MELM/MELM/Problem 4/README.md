@@ -44,7 +44,7 @@ $$
 | File | Description |
 |---|---|
 | `P4.py` | Python implementation of CT Legendre-MELM. |
-| `P4_CT_MELM.csv` | CT MELM numerical results. |
+| `P4_CT_MELM.csv` | CT MELM numerical results required to run `Plots.py`. |
 | `P4_CT_MELM_abs_error.pdf` | Absolute error plot for CT MELM. |
 | `P4_CT_MELM_cont.pdf` | Contour plot of the CT MELM solution. |
 | `P4_CT_MELM_sol_profile.pdf` | Solution profile plot for CT MELM. |
