@@ -1,1 +1,104 @@
+### Problem 5: Two-Dimensional Unsteady Convection–Diffusion Problem
+
+### 1. Problem Description
+
+Consider the two-dimensional unsteady convection–diffusion equation
+
+$$
+\frac{\partial \phi}{\partial t}
++a_x\frac{\partial \phi}{\partial x}
++a_y\frac{\partial \phi}{\partial y}
+-k\left(
+\frac{\partial^2\phi}{\partial x^2}
++\frac{\partial^2\phi}{\partial y^2}
+\right)=0,
+$$
+
+where
+
+$$
+(x,y,t)\in\Omega\times(0,T],
+\qquad
+\Omega=(0,2)\times(0,2).
+$$
+
+The exact solution is
+
+$$
+\phi(x,y,t)=
+\frac{1}{1+4t}
+\exp\left(
+-\frac{(x-a_xt-0.5)^2+(y-a_yt-0.5)^2}
+{k(1+4t)}
+\right).
+$$
+
+The initial and Dirichlet boundary conditions are obtained directly from the exact solution.
+
+The problem parameters are:
+
+- Convection velocity components: $$a_x=0.8,\qquad a_y=0.8$$
+- Characteristic velocity: $$U=0.8$$
+- Diffusion coefficient: $$k=0.01$$
+- Domain length: $$L=2$$
+- Final time: $$T=1$$
+
+The corresponding Péclet number is
+
+$$
+\mathrm{Pe}=\frac{UL}{k}=160.
+$$
+
+### 2. Continuous-Time (CT) Formulation
+
+#### Files and Results
+
+| File | Description |
+|---|---|
+| `P5.py` | Python implementation of CT Legendre-MELM. |
+| `P5_CT_MELM.csv` | CT MELM numerical results required to run `Plots.py`. |
+| `P5_CT_MELM.pdf` | CT MELM solution plot. |
+| `Plots.py` | Python script for generating CT plots. |
+
+#### How to Run
+
+Run the following command from the `CT/` directory:
+
+```bash
+python P5.py
+```
+
+To generate the plots, run:
+
+```bash
+python Plots.py
+```
+
+### 3. Discrete-Time (DT) Formulation
+
+#### Files and Results
+
+| File | Description |
+|---|---|
+| `P5.py` | Python implementation of DT Legendre-MELM. |
+| `P5_DT_MELM.csv` | DT MELM numerical results. |
+| `P5_DT_MELM_errors.csv` | DT MELM error data. |
+| `P5_DT_MELM.pdf` | DT MELM solution plot. |
+| `P5_DT_MELM_error_vs_time.pdf` | Error versus time plot for DT MELM. |
+| `Plots.py` | Python script for generating DT plots. |
+
+#### How to Run
+
+Run the following command from the `DT/` directory:
+
+```bash
+python P5.py
+```
+
+To generate the plots, run:
+
+```bash
+python Plots.py
+```
+
 
