@@ -37,7 +37,7 @@ $$
 \mathrm{Pe}=\frac{UL}{k}=90.
 $$
 
-## 2. Continuous-Time (CT) Formulation
+### 2. Continuous-Time (CT) Formulation
 
 ### Files and Results
 
@@ -55,7 +55,7 @@ $$
 
 Open and execute `P4.ipynb` in the `CT/` directory. To generate the plots, execute `Plots.ipynb` if required.
 
-## 3. Discrete-Time (DT) Formulation
+### 3. Discrete-Time (DT) Formulation
 
 ### Files and Results
 
