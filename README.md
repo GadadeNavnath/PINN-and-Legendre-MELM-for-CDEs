@@ -1,11 +1,9 @@
 # Neural-solvers-for-CDEs
-FEM, PINN and IELM methods for solving convection–diffusion equations.
+PINN and MELM methods for solving convection–diffusion equations.
 
 This repository contains reproducibility materials for the manuscript:
 
-**Title:** “A Modified Extreme Learning Machine Based on Shifted
-Legendre Polynomials for Convection–Diffusion Equations with
-Steep Gradients”
+**Title:** “ A Legendre-Based Modified Extreme Learning Machine for Convection–Diffusion Equations: Steady-State, Continuous-Time, and Discrete-Time Formulations”
 
 **Authors:**
 
@@ -16,8 +14,6 @@ This repository provides Python implementations for solving convection–diffusi
 ---
 
 ### Requirements
-
-#### FEM implementation Requirements:
 
 #### PINN implementation requirements:
 
@@ -48,11 +44,10 @@ pip install numpy matplotlib pandas scipy
 
 ### Repository Structure
 
-The repository is organized into three main folders: **FEM**, **PINN**, and **MELM**. The main `MELM` folder contains separate sub-folders for the MELM and PINN implementations. The `MELM` sub-folder contains code and results for all five benchmark problems, while the `PINN` sub-folder contains results for Problems 4 and 5.
+The repository is organized into two main folders:  **PINN**, and **MELM**. The main `MELM` folder contains separate sub-folders for the MELM and PINN implementations. The `MELM` sub-folder contains code and results for all five benchmark problems, while the `PINN` sub-folder contains results for Problems 4 and 5.
 
 ```text
 repository/
-├── FEM/
 ├── PINN/
 └── MELM/
     ├── MELM/
