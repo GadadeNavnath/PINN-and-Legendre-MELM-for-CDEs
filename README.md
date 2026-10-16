@@ -41,6 +41,10 @@ pip install numpy matplotlib pandas scipy
 | Problem 4 | 2D Problem | Unsteady (CT and DT) |
 | Problem 5 | 3D Problem | Unsteady (CT and DT) |
 
+### Repository Structure
+
+The repository is organized into separate directories for the PINN source code, MELM implementations, and numerical results obtained using both methods. Problems 4 and 5 are further divided into continuous-time (CT) and discrete-time (DT) formulations, with separate CSV files and numerical results for each formulation.
+
 ```text
 PINN-and-Legendre-MELM-for-CDEs/
 ├── PINN/
