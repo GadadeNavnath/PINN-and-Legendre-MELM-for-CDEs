@@ -40,13 +40,17 @@ $$
 \mathrm{Pe}=\frac{UL}{k}=1000.
 $$
 
+### 2. Reference Solution
+
+An exact analytical solution is not available for this problem. Therefore, the FEM solution is used as the reference solution. The FEM solution is included in `P2_PINN.csv` along with the PINN results.
+
 ### 2. Files and Results
 
 | File | Description |
 |---|---|
 | `P2.py` | Python implementation of Legendre-MELM. |
 | `P2_MELM.csv` | MELM numerical results used by `Plots.py`. |
-| `P2_PINN.csv` | PINN numerical results required by `P2.py` and `Plots.py`. |
+| `P2_PINN.csv` | PINN numerical results and FEM reference solution; required to run `P2.py` and `Plots.py`. |
 | `P2_bnd_com.pdf` | Boundary results comparison plot. |
 | `P2_contour.pdf` | Contour plot of the solution. |
 | `P2_error.pdf` | Error plot. |
