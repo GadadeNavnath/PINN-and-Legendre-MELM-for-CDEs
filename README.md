@@ -5,8 +5,6 @@ This repository contains reproducibility materials for the manuscript:
 
 **Title:** “ A Legendre-Based Modified Extreme Learning Machine for Convection–Diffusion Equations: Steady-State, Continuous-Time, and Discrete-Time Formulations”
 
-**Authors:**
-
 ---
 
 This repository provides Python implementations for solving convection–diffusion equations (CDEs). The code is organized into five benchmark problems covering steady and unsteady CDEs, with both continuous-time and discrete-time formulations.
