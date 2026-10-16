@@ -34,7 +34,7 @@ $$
 
 The problem parameters are:
 
-- Convection coefficients: $$a_x=\frac{1}{\sqrt{5},}\qquad a_y=-\frac{2}{\sqrt{5}}$$
+- Convection coefficients: $$a_x=\frac{1}{\sqrt{5}},\qquad a_y=-\frac{2}{\sqrt{5}}$$
 - Convection velocity magnitude: $$U=1$$
 - Diffusion coefficient: $$k=0.001$$
 - Domain length: $$L=1$$
