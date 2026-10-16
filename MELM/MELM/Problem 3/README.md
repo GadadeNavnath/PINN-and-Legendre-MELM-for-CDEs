@@ -26,8 +26,8 @@ The equation is subject to the discontinuous Dirichlet boundary conditions
 $$
 \phi(x,y)=
 \begin{cases}
-1, & y=\dfrac{1}{2}, \\[2mm]
-1, & x=-\dfrac{1}{2},\quad \dfrac{1}{4}\le y\le\dfrac{1}{2}, \\[2mm]
+1, & y=\dfrac{1}{2}, \\
+1, & x=-\dfrac{1}{2},\quad \dfrac{1}{4}\le y\le\dfrac{1}{2}, \\
 0, & \text{otherwise on } \partial\Omega.
 \end{cases}
 $$
