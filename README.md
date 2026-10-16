@@ -106,7 +106,10 @@ PINN-and-Legendre-MELM-for-CDEs/
 - **`MELM/MELM/`**: Contains the MELM implementations and numerical results for all five benchmark problems. For Problems 1–3, the corresponding PINN CSV files, numerical results, and plots are also included in the respective problem folders.
 - **`MELM/MELM/Problem_4/` and `MELM/MELM/Problem_5/`**: Each contains `CT/` and `DT/` subfolders with the MELM Python scripts, CSV files, numerical results, and plots for the respective formulations.
 - **`MELM/PINN/`**: Contains the PINN numerical results for Problems 4 and 5, organized into `CT/` and `DT/` subfolders, with separate CSV files and plots for each formulation.
-```
-- **`MELM/PINN/`**: Contains the PINN numerical results for Problems 4 and 5. Each problem is divided into `CT/` and `DT/` subfolders, containing separate CSV files and numerical results, including plots, for each formulation.
 
-This organization separates the PINN source code from its numerical results and keeps the results for each method, benchmark problem, and time formulation clearly organized for reproducibility and comparison.
+ ### Reproducibility
+
+The code and associated numerical results are provided to support reproducibility of the computational experiments presented in the accompanying manuscript.
+
+For comparisons between PINN and MELM, refer to the corresponding problem directories and their numerical results. The CT and DT subfolders distinguish the continuous-time and discrete-time formulations for Problems 4 and 5.
+
