@@ -1,31 +1,31 @@
-### Problem 1: One-Dimensional Steady Convection–Diffusion Problem
+# Problem 1: One-Dimensional Steady Convection–Diffusion Problem
 
-### 1. Problem Description
+## 1. Problem Description
 
 Consider the one-dimensional steady convection–diffusion equation
 
-\[
+$$
 -k\frac{d^2\phi}{dx^2}+a\frac{d\phi}{dx}=0,
 \qquad x\in(0,1),
-\]
+$$
 
 subject to the Dirichlet boundary conditions
 
-\[
+$$
 \phi(0)=1,\qquad \phi(1)=0.
-\]
+$$
 
 The problem parameters are:
 
-- Convection coefficient: \(a=1\)
-- Diffusion coefficient: \(k=2\times10^{-4}\)
-- Domain length: \(L=1\)
+- Convection coefficient: $$a=1$$
+- Diffusion coefficient: $$k=2\times10^{-4}$$
+- Domain length: $$L=1$$
 
 The corresponding Péclet number is
 
-\[
+$$
 \mathrm{Pe}=\frac{aL}{k}=5000.
-\]
+$$
 
 The high Péclet number indicates convection-dominated transport, making this problem a useful benchmark for evaluating numerical methods in the presence of sharp solution gradients.
 
@@ -33,11 +33,11 @@ The high Péclet number indicates convection-dominated transport, making this pr
 
 The analytical solution of the problem is
 
-\[
+$$
 \phi(x)=
 \frac{1-\exp\!\left[\mathrm{Pe}(x-1)\right]}
 {1-\exp(-\mathrm{Pe})}.
-\]
+$$
 
 This exact solution serves as a reference for evaluating the numerical approximations.
 
@@ -54,4 +54,11 @@ This exact solution serves as a reference for evaluating the numerical approxima
 
 ## 4. How to Run
 
-Ensure that `P1.py` and the required `P1_PIN
+Ensure that `P1.py` and the required `P1_PINN.csv` file are available in the expected directory. From that directory, execute:
+
+```bash
+python P1.py
+```
+
+The script uses the PINN data file as an input. Ensure that the CSV filename and file path match those specified in the script.
+
