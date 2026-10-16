@@ -21,7 +21,7 @@ $$
 \right).
 $$
 
-The initial condition and Dirichlet boundary conditions are obtained directly from the exact solution.
+The initial and Dirichlet boundary conditions are obtained directly from the exact solution.
 
 The problem parameters are:
 
@@ -39,36 +39,49 @@ $$
 
 ### 2. Continuous-Time (CT) Formulation
 
-### Files and Results
+#### Files and Results
 
 | File | Description |
 |---|---|
-| `P4.ipynb` | Jupyter notebook implementing CT Legendre-MELM. |
+| `P4.py` | Python implementation of CT Legendre-MELM. |
 | `P4_CT_MELM.csv` | CT MELM numerical results. |
 | `P4_CT_MELM_abs_error.pdf` | Absolute error plot for CT MELM. |
 | `P4_CT_MELM_cont.pdf` | Contour plot of the CT MELM solution. |
 | `P4_CT_MELM_sol_profile.pdf` | Solution profile plot for CT MELM. |
 | `P4_exact.pdf` | Exact solution plot. |
-| `Plots.ipynb` | Jupyter notebook for generating CT plots. |
+| `Plots.py` | Python script for generating CT plots. |
 
-### How to Run
+#### How to Run
 
-Open and execute `P4.ipynb` in the `CT/` directory. To generate the plots, execute `Plots.ipynb` if required.
+Run the following command from the `CT/` directory:
+
+```bash
+python P4.py
+```
+
+To generate the plots, run:
+
+```bash
+python Plots.py
+```
 
 ### 3. Discrete-Time (DT) Formulation
 
-### Files and Results
+#### Files and Results
 
 | File | Description |
 |---|---|
-| `P4.ipynb` | Jupyter notebook implementing DT Legendre-MELM. |
+| `P4.py` | Python implementation of DT Legendre-MELM. |
 | `P4_DT_MELM.csv` | DT MELM numerical results. |
 | `P4_DT_MELM_absolute_error.pdf` | Absolute error plot for DT MELM. |
 | `P4_DT_MELM_error_vs_time.pdf` | Error versus time plot for DT MELM. |
 | `P4_DT_MELM_solution.pdf` | Solution plot for DT MELM. |
 
-### How to Run
+#### How to Run
 
-Open and execute `P4.ipynb` in the `DT/` directory.
+Run the following command from the `DT/` directory:
 
+```bash
+python P4.py
+```
 
