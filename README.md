@@ -16,6 +16,8 @@ This repository provides Python implementations for solving convection–diffusi
 
 #### PINN implementation requirements:
 
+Pls update here 
+
 
 #### MELM implementation Requirements:
 
