@@ -43,7 +43,7 @@ This exact solution serves as a reference for evaluating the numerical approxima
 
 | File | Description |
 |---|---|
-| `P1.py` | Python script implementing the Legendre-based Modified Extreme Learning Machine (MELM) method. |
+| `P1.py` | Python script implementing the Legendre-MELM method. |
 | `P1_PINN.csv` | PINN numerical data file required to run the Python script. |
 | `P1_MELM_error.pdf` | Error plot for the MELM solution. |
 | `P1_PINN_error.pdf` | Error plot for the PINN solution. |
