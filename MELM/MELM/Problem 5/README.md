@@ -80,9 +80,9 @@ python Plots.py
 
 | File | Description |
 |---|---|
-| `P5.py` | Python implementation of DT Legendre-MELM. |
-| `P5_DT_MELM.csv` | DT MELM numerical results. |
-| `P5_DT_MELM_errors.csv` | DT MELM error data. |
+| `P5.py` | Python implementation of DT Legendre-MELM; generates both `P5_DT_MELM.csv` and `P5_DT_MELM_errors.csv`. |
+| `P5_DT_MELM.csv` | DT MELM numerical results used by `Plots.py`. |
+| `P5_DT_MELM_errors.csv` | DT MELM error data used by `Plots.py`. |
 | `P5_DT_MELM.pdf` | DT MELM solution plot. |
 | `P5_DT_MELM_error_vs_time.pdf` | Error versus time plot for DT MELM. |
 | `Plots.py` | Python script for generating DT plots. |
