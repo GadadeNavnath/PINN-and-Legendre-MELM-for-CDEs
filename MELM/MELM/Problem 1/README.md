@@ -1,6 +1,6 @@
-# Problem 1: One-Dimensional Steady Convection–Diffusion Problem
+### Problem 1: One-Dimensional Steady Convection–Diffusion 
 
-## 1. Problem Description
+### 1. Problem Description
 
 Consider the one-dimensional steady convection–diffusion equation
 
@@ -29,7 +29,7 @@ $$
 
 The high Péclet number indicates convection-dominated transport, making this problem a useful benchmark for evaluating numerical methods in the presence of sharp solution gradients.
 
-## 2. Exact Solution
+### 2. Exact Solution
 
 The analytical solution of the problem is
 
@@ -41,7 +41,7 @@ $$
 
 This exact solution serves as a reference for evaluating the numerical approximations.
 
-## 3. Files and Results
+### 3. Files and Results
 
 | File | Description |
 |---|---|
@@ -52,7 +52,7 @@ This exact solution serves as a reference for evaluating the numerical approxima
 | `P1_comparison.pdf` | Comparison of the MELM and PINN solutions. |
 | `P1_zoom.pdf` | Zoomed-in comparison plot for examining solution details. |
 
-## 4. How to Run
+### 4. How to Run
 
 Ensure that `P1.py` and the required `P1_PINN.csv` file are available in the expected directory. From that directory, execute:
 
