@@ -37,9 +37,9 @@ pip install numpy matplotlib pandas scipy
 
 | Problem | Dimension | Type | Formulation |
 |---|---|---|---|
-| Problem 1 | 1D | Steady-state | Steady |
-| Problem 2 | 2D | Steady-state | Steady |
-| Problem 3 | 2D | Steady-state | Steady |
+| Problem 1 | 1D | Steady | Steady |
+| Problem 2 | 2D | Steady | Steady |
+| Problem 3 | 2D | Steady | Steady |
 | Problem 4 | 2D (CT), 1D (DT) | Unsteady | Continuous-time (CT) and discrete-time (DT) |
 | Problem 5 | 3D (CT), 2D (DT) | Unsteady | Continuous-time (CT) and discrete-time (DT) |
 
