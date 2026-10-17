@@ -10,6 +10,7 @@ The mathematical formulation, exact solution, boundary conditions, and problem p
 |---|---|
 | `data/` | Directory containing CSV files required to run `Plots.py`. |
 | `Plots.py` | Python script for generating CT plots using the CSV files in `data/`. |
+| `L2_error.py` | Python script for computing the $L^2$ error. |
 | `P5_CT_PINN.pdf` | Solution plot for CT PINN. |
 
 #### How to Run
@@ -19,6 +20,8 @@ Run the following command from the `CT/` directory:
 ```bash
 python Plots.py
 ```
+
+
 
 ### 2. Discrete-Time (DT) Formulation
 
