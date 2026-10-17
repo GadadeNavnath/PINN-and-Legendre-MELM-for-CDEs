@@ -80,11 +80,13 @@ PINN-and-Legendre-MELM-for-CDEs/
     └── PINN/
         ├── README.md
         ├── Problem_4/
+        │   ├── README.md
         │   ├── CT/
         │   │   └── [CSV files, numerical results, and plots]
         │   └── DT/
         │       └── [CSV files, numerical results, and plots]
         └── Problem_5/
+            ├── README.md
             ├── CT/
             │   └── [CSV files, numerical results, and plots]
             └── DT/
