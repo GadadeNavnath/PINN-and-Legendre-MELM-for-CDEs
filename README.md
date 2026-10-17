@@ -49,50 +49,43 @@ The repository is organized into separate directories for the PINN source code, 
 
 ```text
 PINN-and-Legendre-MELM-for-CDEs/
+├── README.md
 ├── PINN/
 │   └── [PINN Python scripts]
 │
 └── MELM/
+    ├── README.md
     ├── MELM/
+    │   ├── README.md
     │   ├── Problem_1/
-    │   │   ├── [MELM code and results]
-    │   │   └── [PINN CSV files, numerical results, and plots]
-    │   │
+    │   │   ├── README.md
+    │   │   └── [MELM code, PINN data, results, and plots]
     │   ├── Problem_2/
-    │   │   ├── [MELM code and results]
-    │   │   └── [PINN CSV files, numerical results, and plots]
-    │   │
+    │   │   ├── README.md
+    │   │   └── [MELM code, PINN data, results, and plots]
     │   ├── Problem_3/
-    │   │   ├── [MELM code and results]
-    │   │   └── [PINN CSV files, numerical results, and plots]
-    │   │
+    │   │   ├── README.md
+    │   │   └── [MELM code, PINN data, results, and plots]
     │   ├── Problem_4/
+    │   │   ├── README.md
     │   │   ├── CT/
-    │   │   │   ├── [MELM Python scripts]
-    │   │   │   ├── [CSV files and numerical results]
-    │   │   │   └── [Plots]
+    │   │   │   └── [MELM scripts, CSV files, and plots]
     │   │   └── DT/
-    │   │       ├── [MELM Python scripts]
-    │   │       ├── [CSV files and numerical results]
-    │   │       └── [Plots]
-    │   │
+    │   │       └── [MELM scripts, CSV files, and plots]
     │   └── Problem_5/
+    │       ├── README.md
     │       ├── CT/
-    │       │   ├── [MELM Python scripts]
-    │       │   ├── [CSV files and numerical results]
-    │       │   └── [Plots]
+    │       │   └── [MELM scripts, CSV files, and plots]
     │       └── DT/
-    │           ├── [MELM Python scripts]
-    │           ├── [CSV files and numerical results]
-    │           └── [Plots]
+    │           └── [MELM scripts, CSV files, and plots]
     │
     └── PINN/
+        ├── README.md
         ├── Problem_4/
         │   ├── CT/
         │   │   └── [CSV files, numerical results, and plots]
         │   └── DT/
         │       └── [CSV files, numerical results, and plots]
-        │
         └── Problem_5/
             ├── CT/
             │   └── [CSV files, numerical results, and plots]
