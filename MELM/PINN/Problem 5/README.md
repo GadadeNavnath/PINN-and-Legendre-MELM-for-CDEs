@@ -19,6 +19,7 @@ Run the following command from the `CT/` directory:
 
 ```bash
 python Plots.py
+python L2_error.py
 ```
 
 
