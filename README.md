@@ -54,18 +54,16 @@ PINN-and-Legendre-MELM-for-CDEs/
 │   └── [PINN Python scripts]
 │
 └── MELM/
-    ├── README.md
     ├── MELM/
-    │   ├── README.md
     │   ├── Problem_1/
     │   │   ├── README.md
-    │   │   └── [MELM code, PINN data, results, and plots]
+    │   │   └── [MELM scripts, PINN data, results, and plots]
     │   ├── Problem_2/
     │   │   ├── README.md
-    │   │   └── [MELM code, PINN data, results, and plots]
+    │   │   └── [MELM scripts, PINN data, results, and plots]
     │   ├── Problem_3/
     │   │   ├── README.md
-    │   │   └── [MELM code, PINN data, results, and plots]
+    │   │   └── [MELM scripts, PINN data, results, and plots]
     │   ├── Problem_4/
     │   │   ├── README.md
     │   │   ├── CT/
