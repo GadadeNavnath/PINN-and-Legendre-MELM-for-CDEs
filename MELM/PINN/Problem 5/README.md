@@ -10,7 +10,7 @@ The mathematical formulation, exact solution, boundary conditions, and problem p
 |---|---|
 | `data/` | Directory containing CSV files required to run `Plots.py`. |
 | `Plots.py` | Python script for generating CT plots using the CSV files in `data/`. |
-| `L2_error.py` | Python script for computing the $L^2$ error. |
+| `L2_error.py` | Python script for computing the relative $L_2$ error. |
 | `P5_CT_PINN.pdf` | Solution plot for CT PINN. |
 
 #### How to Run
